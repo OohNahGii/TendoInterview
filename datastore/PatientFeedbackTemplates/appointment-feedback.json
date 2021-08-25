@@ -1,0 +1,24 @@
+{
+  "resourceType": "PatientFeedback",
+  "feedback": [
+    {
+      "question": "Hi {0}, on a scale of 1-10, would you recommend Dr {1} to a friend or family member? 1 = Would not recommend, 10 = Would strongly recommend.",
+      "answerType": "Integer",
+      "minValue": 1,
+      "maxValue": 10,
+      "errorMessage": "Please enter a number between 1 and 10"
+    },
+    {
+      "question": "Thank you. You were diagnosed with {0}. Did Dr {1} explain how to manage this diagnosis in a way you could understand? (y/n)",
+      "answerType": "Boolean",
+      "trueValue": "y",
+      "falseValue": "n",
+      "errorMessage": "Please enter y or n"
+    },
+    {
+      "question": "We appreciate the feedback, one last question: how do you feel about being diagnosed with {0}?",
+      "answerType": "String"
+    }
+  ],
+  "summary": "Thanks again! Here’s what we heard:"
+}
