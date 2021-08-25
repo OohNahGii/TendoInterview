@@ -1,2 +1,1 @@
-# TendoExercise
 # TendoInterview
